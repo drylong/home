@@ -1,0 +1,74 @@
+$qcol : #8E8E8E;
+$dclo : #333333;
+$tcol : #FF9400;
+.login {
+  .head {
+    display: flex;
+    justify-content: space-between;
+    height: 22px;
+    line-height: 22px;
+    padding: 16px 15px;
+    font-size: 14px;
+    color: $qcol;
+  }
+  .hello {
+    padding: 0 30px;
+    span {
+      font-size: 40px;
+      color: $dclo;
+      line-height: 88px;
+      font-weight: 400;
+    }
+    p {
+      font-size: 16px;
+      line-height: 18px;
+      color: $qcol;
+      a {
+        text-decoration: none;
+        color: $tcol;
+      }
+    }
+  }
+  .inputMsg  {
+    padding: 0 30px;
+    margin-top: 30px;
+    .am-input-control {
+      padding-left: 10px;
+    }
+    .login_input {
+      height: 65px;
+      font-size: 16px;
+      color: $qcol;
+    }
+  }
+  .agree {
+    margin-top: 35px;
+    font-size: 16px;
+    line-height: 16px;
+    padding-left: 30px;
+    color: $qcol;
+    a {
+      text-decoration: none;
+      color: $tcol;
+    }
+  }
+  .tolog {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    line-height: 50px;
+    margin-top: 35px;
+    .duanxin {
+      font-size: 15px;
+      color: $qcol;
+    }
+    .lbut {
+      color: #fff;
+      background-color: #ccc;
+      height: 50px;
+      width: 100px;
+      border-radius: 25px;
+      font-size: 18px;
+    }
+  }
+}
